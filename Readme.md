@@ -10,6 +10,12 @@ Presentations
 ====================
 01. PHP Intro : 
 
+Google Docs : 
+
+https://docs.google.com/presentation/d/1rCi7LaxdDc9-cbaSNSDgUkVv208iwFw559sIgJ2Kr1E/
+
+SlideShare : 
+
 http://www.slideshare.net/dimityrdanailov/vfu-sem-php-intro-05102013
 
 
