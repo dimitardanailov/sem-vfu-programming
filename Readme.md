@@ -18,6 +18,16 @@ SlideShare :
 
 http://www.slideshare.net/dimityrdanailov/vfu-sem-php-intro-05102013
 
+02. PHP OOP
+
+Google Docs : 
+
+https://docs.google.com/presentation/d/1rCi7LaxdDc9-cbaSNSDgUkVv208iwFw559sIgJ2Kr1E
+
+SlideShare : 
+
+http://www.slideshare.net/dimityrdanailov/vfu-sem-php-oop-12102013
+
 
 Description
 ====================
