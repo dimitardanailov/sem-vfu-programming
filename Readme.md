@@ -1,4 +1,6 @@
 Software Engineering and Management
+====================
+
 Module : Programming
 ====================
 
@@ -8,26 +10,13 @@ Forum: http://sem-forum.158.bg/
 
 Presentations
 ====================
-01. PHP Intro : 
 
-Google Docs : 
-
-https://docs.google.com/presentation/d/1rCi7LaxdDc9-cbaSNSDgUkVv208iwFw559sIgJ2Kr1E/
-
-SlideShare : 
-
-http://www.slideshare.net/dimityrdanailov/vfu-sem-php-intro-05102013
-
-02. PHP OOP
-
-Google Docs : 
-
-https://docs.google.com/presentation/d/1rCi7LaxdDc9-cbaSNSDgUkVv208iwFw559sIgJ2Kr1E
-
-SlideShare : 
-
-http://www.slideshare.net/dimityrdanailov/vfu-sem-php-oop-12102013
-
+1. PHP Intro : 
+- Google Docs : https://docs.google.com/presentation/d/1rCi7LaxdDc9-cbaSNSDgUkVv208iwFw559sIgJ2Kr1E/
+- SlideShare : http://www.slideshare.net/dimityrdanailov/vfu-sem-php-intro-05102013
+2. PHP OOP
+- Google Docs : https://docs.google.com/presentation/d/1rCi7LaxdDc9-cbaSNSDgUkVv208iwFw559sIgJ2Kr1E
+- SlideShare : http://www.slideshare.net/dimityrdanailov/vfu-sem-php-oop-12102013
 
 Description
 ====================
