@@ -2,8 +2,8 @@
 
 //Objects
 
-$human = new stdClass();
-$human->gender = 'm';
+$human = new stdClass(); // Object C#, Java
+$human->gender = 'm'; 
 $human->age = 35;
 $human->name = 'Todor Dimov';
 

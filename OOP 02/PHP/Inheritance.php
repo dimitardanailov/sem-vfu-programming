@@ -4,6 +4,8 @@ class Human  {
     private $name = null;
     private $gender = null;
     private $age = null;
+    protected $city = null; // ParentClass, Child
+    public $country = null; // Everywhere
     
     public function __construct($name, $gender, $age) {
         $this->name = $name;
@@ -11,6 +13,10 @@ class Human  {
         $this->age = $age;
     }
     
+    // Java
+    // System.out.println("Hello Wolrd"); -> Hello World
+    // C#
+    // System.Writeln("Hello World"); -> Hello World
     static function prinHello($name) {
         echo 'Hello, ' . $name;
     }
@@ -65,19 +71,12 @@ Class Child extends Human {
     }
 }
 
+/*
 echo '<h2>Human : </h2>';
 $jesus = new Human('Jesus', 'm', 33);
 var_dump($jesus);
 echo '<hr/>';
-
-echo '<h2>Parents : </h2>';
-$parentTodor = new ParentClass('Todor Dimov', 'm', 35);
-var_dump($parentTodor);
-echo '<hr/>';
-
-$parentVioleta = new ParentClass('Violeta Dimova', 'f', 32);
-var_dump($parentVioleta);
-echo '<hr/>';
+*/
 
 echo '<h2>Chilrens: </h2>';
 $childDimo = new Child('Dimo Todorov', 'm', 12);
@@ -88,12 +87,19 @@ $childTodorka = new Child('Todorka Todorova', 'f', 16);
 var_dump($childTodorka);
 echo '<hr/>';
 
+echo '<h2>Parents : </h2>';
+$parentTodor = new ParentClass('Todor Dimov', 'm', 35);
+var_dump($parentTodor);
+
 $parentTodor->setChildren($childDimo);
 $parentTodor->setChildren($childTodorka);
 var_dump($parentTodor);
 echo $parentTodor->getName();
 echo '<hr/>';
 
+$parentVioleta = new ParentClass('Violeta Dimova', 'f', 32);
+var_dump($parentVioleta);
+echo '<hr/>';
 $parentVioleta->setChildren($childDimo);
 $parentVioleta->setChildren($childTodorka);
 var_dump($parentVioleta);
@@ -108,4 +114,5 @@ $childTodorka->setParent($parentVioleta);
 $childTodorka->setParent($parentVioleta);
 var_dump($childTodorka);
 echo '<hr/>';
+
 ?>
